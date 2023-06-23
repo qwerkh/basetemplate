@@ -1,0 +1,389 @@
+.v-text-field input {
+    line-height: 30px !important;
+}
+
+.v-input .v-label {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+.v-toolbar__title {
+    line-height: 1.9 !important;
+}
+
+.v-card__actions {
+    padding-bottom: 25px !important;
+}
+
+.v-btn--fab.v-size--default.v-btn--absolute.v-btn--bottom {
+    bottom: 28px !important;
+}
+
+.v-text-field--outlined.v-input--dense .v-label--active {
+    transform: translateY(-22px) scale(0.75) !important;
+}
+
+.v-list--dense .v-list-item .v-list-item__subtitle, .v-list--dense .v-list-item .v-list-item__title, .v-list-item--dense .v-list-item__subtitle, .v-list-item--dense .v-list-item__title {
+    line-height: 1.9rem !important;
+}
+
+.v-data-table th {
+    text-align: center !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.v-progress-circular {
+    position: absolute !important;
+    z-index: 1200 !important;
+}
+
+.v-progress-linear {
+    position: absolute !important;
+}
+
+.v-input input {
+    max-height: 40px !important;
+}
+
+item__title {
+    line-height: 1.6 !important;
+}
+
+.el-popup-parent--hidden {
+    padding-right: 10px !important;
+}
+
+.v-banner__text {
+    line-height: 30px !important;
+}
+
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.table td, .table th {
+    padding: .75rem;
+
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.tablePadding td, .tablePadding th {
+    padding: .25rem;
+
+}
+
+.tablePadding {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: transparent !important;
+}
+
+
+.table-write-meter td {
+    padding: 0.25rem !important;
+    text-align: center !important;
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-report td {
+    padding: 0.5rem !important;
+}
+
+.table-write-meter > tbody > tr:hover {
+    background-color: yellow !important;
+}
+
+.postInvoiceTh {
+    font-family: Khmer OS Battambang !important;
+    font-size: 12px;
+}
+
+.postInvoiceTh10 {
+    font-family: Khmer OS Battambang !important;
+    font-size: 10px;
+}
+
+.withBorder > .postInvoiceTh th {
+    border: 1px solid;
+    padding: 0.20rem;
+}
+
+.withBorder > .postInvoiceTd td {
+    text-align: right !important;
+    padding-right: 30px !important;
+    padding-left: 0px !important;
+    font-size: 11px !important;
+}
+
+.withBorder > .postInvoiceTdHead td {
+    text-align: center !important;
+    font-size: 13px !important;
+    border: 1px solid;
+    padding: 0.20rem;
+}
+
+.withBorder > .postInvoiceTdBody td {
+    text-align: left !important;
+    font-size: 13px !important;
+    border: 1px solid;
+    padding: 0.20rem;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child, .v-application--is-ltr .v-list-item__icon:first-child {
+    margin-right: 10px !important;
+}
+
+.v-application--is-ltr .v-list--dense.v-list--nav .v-list-group--no-action > .v-list-group__items > .v-list-item {
+    padding-left: 40px !important;
+}
+
+.tableCollapse > tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media print {
+    .noPrint {
+        display: none !important;
+        margin: 0 !important;
+    }
+
+    .no-print {
+        display: none !important;
+        margin: 0 !important;
+    }
+
+    body * {
+        visibility: hidden;
+        /*white-space: nowrap;*/
+    }
+
+
+    .onPrint {
+        padding: 0px !important;
+    }
+
+    .container {
+        padding-left: 0px !important;
+        padding-top: -10px !important;
+    }
+
+    .v-content {
+        padding: 0px !important;
+    }
+
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+    }
+
+    #section-to-print {
+        position: relative !important;
+        top: 0;
+        float: left !important;
+        min-width: 100% !important;
+    }
+
+    #section-to-print-with-page-break, #section-to-print-with-page-break * {
+        visibility: visible;
+    }
+
+    #section-to-print-with-page-break {
+        position: relative !important;
+        top: 0 !important;
+        float: left !important;
+    }
+
+    .font-for-print {
+        font-size: 11px !important;
+    }
+
+    .print-invoice {
+        min-width: 100% !important;
+        table-layout: fixed;
+    }
+
+    .displayTransparent {
+        opacity: 0 !important;
+    }
+
+    .withBorder > .postInvoiceTh th {
+        border: 1px transparent;
+    }
+
+    .withBorder > .postInvoiceTdBody td {
+        border: 1px transparent;
+    }
+
+    .withBorder > .postInvoiceTdHead td {
+        border: 1px transparent;
+    }
+
+    footer {
+        page-break-after: always !important;
+    }
+
+    .pageBreak {
+        page-break-after: always !important;
+    }
+
+    .printFontSize {
+        font-size: 12px !important;
+    }
+
+    #section-to-print-contract, #section-to-print-contract * {
+        visibility: visible;
+
+    }
+
+    #section-to-print-contract {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        min-width: 100% !important;
+    }
+
+    /*thead {
+        display: contents;
+    }*/
+    table {
+        page-break-after: auto
+    }
+
+    tr {
+        page-break-inside: avoid;
+        page-break-after: auto
+    }
+
+    td {
+        page-break-inside: avoid;
+        page-break-after: auto
+    }
+
+}
+
+.v-main__wrap {
+    flex: 1 1 auto;
+    max-width: 100%;
+    position: inherit !important;
+}
+
+table {
+    page-break-after: auto
+}
+
+tr {
+    page-break-inside: avoid;
+    page-break-after: auto
+}
+
+td {
+    page-break-inside: avoid;
+    page-break-after: auto
+}
+
+.ql-align-center {
+    text-align: center !important;
+}
+
+.ql-align-right {
+    text-align: right !important;
+}
+
+.ql-align-left {
+    text-align: left !important;
+}
+
+.ql-align-justify {
+    text-align: justify !important;
+}
+
+
+/*===============Change to Font Battambang*/
+/** {
+    font-family: "Khmer OS Battambang";
+}
+.fontTitle {
+    font-family: "Khmer os Freehand",Roboto;
+}
+
+.fontHeadline .fontSubTitle {
+    font-family:"Khmer os Muollight",Roboto;
+}*/
+
+/*===============End Change to Font Battambang*/
+
+
+/*==================Font natosan khmer*/
+
+* {
+    font-family: "NatosanKhmer", "Montserrat";
+}
+.fontTitle {
+    font-family: "Khmer os Muollight","Times New Roman";
+}
+
+.fontHeadline .fontSubTitle {
+    font-family:"Khmer os Muollight","Times New Roman";
+}
+
+
+
+/*===============Change to Font Dangrek*/
+/** {
+    font-family: "Khmer OS Dangrek", "Khmer OS Battambang", Roboto;
+}
+
+
+.fontTitle {
+    font-family: "Khmer OS Dangrek","Khmer os Freehand",Roboto;
+}
+
+.fontHeadline .fontSubTitle {
+    font-family: "Khmer OS Dangrek","Khmer os Muollight",Roboto;
+}
+.v-card__title {
+    letter-spacing: 0em !important;
+}
+.v-application .caption {
+    letter-spacing: 0em!important;
+}
+
+.v-application .caption {
+    letter-spacing: 0em !important;
+    font-family: "Khmer OS Dangrek",Roboto !important;
+}
+
+.v-application .headline, .v-application .title {
+    font-family: "Khmer OS Dangrek",Roboto !important;
+}
+.v-card__subtitle, .v-card__text {
+    letter-spacing: 0em !important;
+}*/
+/*==========End Change to Font Dangrek*/
+

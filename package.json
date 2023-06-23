@@ -1,0 +1,62 @@
+{
+  "name": "billing",
+  "private": true,
+  "scripts": {
+    "start": "webstorm . && MONGO_URL=mongodb://localhost:27017/billing meteor",
+    "visualize": "meteor --production --extra-packages bundle-visualizer",
+    "deploy": "cd .deploy && mup deploy",
+    "logs": "cd .deploy && mup logs"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@thyrith/momentkh": "^2.5.3",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "buzz": "^1.2.1",
+    "compress.js": "^1.1.2",
+    "echarts": "^4.7.0",
+    "element-ui": "^2.13.1",
+    "file-saver": "^2.0.2",
+    "firebase": "^7.14.3",
+    "jsbarcode": "^3.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "location": "0.0.1",
+    "lodash": "^4.17.20",
+    "mathjs": "^7.1.0",
+    "meteor-node-stubs": "^0.4.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "navigator": "^1.0.1",
+    "node-excel-export": "^1.4.4",
+    "node-schedule": "^2.1.1",
+    "numeral": "^2.0.6",
+    "plugins": "^0.4.2",
+    "qrcode": "^1.5.1",
+    "simpl-schema": "^1.7.0",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.22.1",
+    "vue-i18n": "^8.17.4",
+    "vue-loading-overlay": "^3.3.2",
+    "vue-meta": "^2.3.3",
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.1.6",
+    "vue-shortkey": "^3.1.7",
+    "vue2-editor": "^2.10.3",
+    "vuetify": "^2.3.10",
+    "vuex": "^3.3.0",
+    "xlsx": "^0.15.6"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    }
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@mdi/font": "^4.9.95",
+    "material-design-icons-iconfont": "^5.0.1",
+    "script-loader": "^0.7.2"
+  }
+}
